@@ -3,7 +3,7 @@ type SandboxAttributeValue = "allow-downloads-without-user-activation" | "allow-
 export interface IIframe {
 	url: string,
 	src?: string,
-	srcdoc?: string,
+	srcDoc?: string,
 	allowFullScreen?: boolean,
 	position?: "relative" | "absolute" | "fixed" | "sticky" | "static" | "inherit" | "initial" | "unset",
 	display?: "block" | "none" | "inline" | "initial",
