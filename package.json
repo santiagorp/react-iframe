@@ -1,6 +1,6 @@
 {
-  "name": "react-iframe",
-  "version": "1.8.0",
+  "name": "santiagorp-react-iframe",
+  "version": "1.8.2",
   "description": "Easy peasy lemon squeezy iframes with react",
   "main": "dist/cjs/iframe.js",
   "module": "dist/es/iframe.js",
@@ -61,7 +61,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:svenanders/react-iframe.git"
+    "url": "git+ssh://git@github.com/svenanders/react-iframe.git"
   },
   "homepage": "https://github.com/svenanders/react-iframe",
   "keywords": [
@@ -69,11 +69,7 @@
     "react-component",
     "iframe"
   ],
-  "author": {
-    "name": "Sven Anders Robbestad",
-    "email": "anders@robbestad.com",
-    "url": "https://www.robbestad.com"
-  },
+  "author": "Sven Anders Robbestad <anders@robbestad.com> (https://www.robbestad.com)",
   "scripts": {
     "ts:cjs": "yarn tsc -p ts/cjs.tsconfig.json",
     "ts:es": "yarn tsc -p ts/es.tsconfig.json",
@@ -104,5 +100,8 @@
     "transform": {
       "^.+\\.tsx?$": "<rootDir>/test_setup/ts-preprocessor.js"
     }
+  },
+  "bugs": {
+    "url": "https://github.com/svenanders/react-iframe/issues"
   }
 }

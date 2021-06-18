@@ -11,11 +11,12 @@ const Iframe: ComponentType<IIframe>
 			 frameBorder, ariaHidden, sandbox, allow,
 			 className, title, ariaLabel, ariaLabelledby,
 			 name, target, loading, importance, referrerpolicy,
-			 allowpaymentrequest, src
+			 allowpaymentrequest, src, srcdoc
 		 }: IIframe) => {
 
 	const defaultProps = objectAssign({
 		src: src || url,
+		srcdoc: srcdoc || null,
 		target: target || null,
 		style: {
 			position: position || null,
